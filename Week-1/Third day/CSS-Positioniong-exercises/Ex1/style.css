@@ -1,0 +1,17 @@
+.main {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
+.horisontal{
+    width: 500px;
+    height: 25px;
+    background-color: red;
+    margin-top: -425px;
+}
+.vertical{
+    background-color: red;
+    width: 25px;
+    height: 500px;
+    margin-left: 50px;
+}

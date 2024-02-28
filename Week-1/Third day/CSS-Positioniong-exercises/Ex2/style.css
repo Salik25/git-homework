@@ -1,0 +1,52 @@
+.main{
+    background-color: purple;
+    width: 370px;
+    height: 200px;
+    position: relative;
+}
+.stat{
+    width: 25px;
+    background-color: grey;
+    bottom: 10px;
+}
+.money{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.first{
+    position: absolute;
+    height: 30px;
+    left: 10px;
+
+}
+.second{
+    position: absolute;
+    height: 100px;
+    left: 60px;
+}
+.third{
+    position: absolute;
+    height: 150px;
+    left: 110px;
+}
+.fourth{
+    position: absolute;
+    height: 140px;
+    left: 160px;
+}
+.fifth{
+    position: absolute;
+    height: 130px;
+    left: 210px;
+}
+.sixth{
+    position: absolute;
+    height: 70px;
+    left: 260px;
+}
+.time{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}

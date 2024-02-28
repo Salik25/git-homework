@@ -1,0 +1,22 @@
+.main{
+    display: inline-block;
+    height: 250px;
+    width: 496px;
+    background-color: black;
+    padding: 2px;
+}
+.piece{
+    background-color: #66320E;
+    width: 120px;
+    height: 120px;
+    margin: 2px;
+    float: left;
+}
+.red_line{
+    position: absolute;
+    background-color: darkred;
+    height: 3px;
+    margin: 2px;
+    width: 492px;
+    top: 130.5px;
+}
