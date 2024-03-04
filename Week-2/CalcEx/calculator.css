@@ -1,0 +1,99 @@
+* {
+    font-family: inter;
+    list-style-type: none;
+}
+
+.calc-container {
+    height: 844px;
+    width: 390px;
+    background-color: #151515;
+    border-radius: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.calc-container .top-container{
+    border-bottom: 1px solid #969696;
+    padding-top: 72px;
+}
+
+.calc-container .top-container .inner-display-container{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-right: 2px solid #969696;
+}
+
+.calc-container .top-container .inner-display-container .number{
+    margin-right: 10px;
+    font-size: 48px;
+    color: white;
+}
+
+.calc-container .top-container .inner-result-container{
+    font-size: 48px;
+    color: #969696;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-top: 60px;
+}
+
+.calc-container .top-container .inner-bottom-container{
+    padding-top: 20px;
+}
+
+.calc-container .top-container .inner-bottom-container ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.calc-container .top-container .inner-bottom-container ul li{
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-container .top-container .inner-bottom-container ul li:nth-child(4){
+    margin-left: 200px;
+    
+}
+
+.calc-container .bottom-container {
+
+}
+
+.calc-container .bottom-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.calc-container .bottom-container ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 73px;
+    border-radius: 9px;
+    background-color: #343434;
+    margin: 10px;
+    font-size: 36px;
+    color: white;
+}
+.calc-container .bottom-container .icon {
+    color: #66FF7F;
+}
+.calc-container .bottom-container .icon:first-child {
+    background-color: #FF5959;
+    color: #343434;
+}
+.calc-container .bottom-container .icon:nth-child(2),
+.calc-container .bottom-container .icon:nth-child(3),
+.calc-container .bottom-container .icon:nth-child(4) {
+    font-size: 24px;
+}
+.calc-container .bottom-container .icon:last-child {
+    background-color: #66FF7F;
+    color: #343434;
+}
+
