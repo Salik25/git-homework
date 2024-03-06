@@ -1,0 +1,48 @@
+.container{
+    display: grid;
+    /* grid-gap: 10px; */
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 14fr 1fr;
+    grid-template-areas: 
+    "f c"
+    "f i";
+}
+
+.left-side-container{
+    display: grid;
+    grid-area: f;
+    background-color: purple;
+}
+
+.main-side-container{
+    display: grid;
+}
+.chat-container{
+    grid-area: c;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-rows: repeat(5,1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
+
+}
+.input-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-area: i;
+    justify-content: right;
+    
+}
+.message-in, .message-out{
+    display: grid;
+    width: 200px;
+    height: 50px;
+}
+.message-in{
+    background-color: grey;
+}
+.message-out{
+    background-color: green;
+}
+
+
