@@ -1,0 +1,16 @@
+.top-main-container, .end-of-top-container, .top-container, .bottom-card{
+  padding-left: 16%;
+  padding-right: 16%;
+}
+.right-inner-container {
+  display: inline;
+}
+.main-content-top {
+  margin-top: 7%;
+}
+.bottom-card{
+  border: 0px;
+}
+.button-for-card-bottom {
+  background-color: lightgray;
+}
